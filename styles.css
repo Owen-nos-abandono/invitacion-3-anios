@@ -1,7 +1,6 @@
 /* =========================================================
-   INVITACIÓN DE 3 AÑOS
-   MELINA MAYA RIVERA
-   ESTILO: HIELO / INVIERNO / ELEGANTE / INFANTIL
+   INVITACIÓN MELINA MAYA RIVERA
+   ESTILO: FROZEN / HIELO / INVIERNO / ELEGANTE / INFANTIL
 ========================================================= */
 
 * {
@@ -32,6 +31,7 @@
 
   --shadow: rgba(74, 105, 143, 0.16);
 }
+
 
 /* =========================================================
    BASE
@@ -83,6 +83,7 @@ body {
     0 0 80px rgba(65, 91, 125, 0.12);
 }
 
+
 /* =========================================================
    NIEVE
 ========================================================= */
@@ -109,8 +110,7 @@ body {
 
   border-radius: 50%;
 
-  background:
-    rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.92);
 
   box-shadow:
     0 0 8px rgba(255, 255, 255, 0.95),
@@ -123,219 +123,160 @@ body {
 
 .snowflake-1 {
   left: 4%;
-
   width: 7px;
   height: 7px;
-
   animation-duration: 11s, 3s;
 }
 
 .snowflake-2 {
   left: 10%;
-
   width: 12px;
   height: 12px;
-
   animation-duration: 15s, 4s;
-
   animation-delay: -5s;
 }
 
 .snowflake-3 {
   left: 17%;
-
   width: 6px;
   height: 6px;
-
   animation-duration: 9s, 2.8s;
-
   animation-delay: -2s;
 }
 
 .snowflake-4 {
   left: 25%;
-
   width: 10px;
   height: 10px;
-
   animation-duration: 13s, 3.5s;
-
   animation-delay: -7s;
 }
 
 .snowflake-5 {
   left: 33%;
-
   width: 6px;
   height: 6px;
-
   animation-duration: 10s, 3s;
-
   animation-delay: -3s;
 }
 
 .snowflake-6 {
   left: 41%;
-
   width: 13px;
   height: 13px;
-
   animation-duration: 17s, 4.5s;
-
   animation-delay: -9s;
 }
 
 .snowflake-7 {
   left: 49%;
-
   width: 7px;
   height: 7px;
-
   animation-duration: 12s, 3.2s;
-
   animation-delay: -4s;
 }
 
 .snowflake-8 {
   left: 56%;
-
   width: 11px;
   height: 11px;
-
   animation-duration: 14s, 4s;
-
   animation-delay: -8s;
 }
 
 .snowflake-9 {
   left: 64%;
-
   width: 6px;
   height: 6px;
-
   animation-duration: 10s, 2.7s;
-
   animation-delay: -1s;
 }
 
 .snowflake-10 {
   left: 71%;
-
   width: 14px;
   height: 14px;
-
   animation-duration: 18s, 4.8s;
-
   animation-delay: -12s;
 }
 
 .snowflake-11 {
   left: 78%;
-
   width: 8px;
   height: 8px;
-
   animation-duration: 12s, 3.4s;
-
   animation-delay: -6s;
 }
 
 .snowflake-12 {
   left: 84%;
-
   width: 6px;
   height: 6px;
-
   animation-duration: 9s, 2.5s;
-
   animation-delay: -3s;
 }
 
 .snowflake-13 {
   left: 90%;
-
   width: 11px;
   height: 11px;
-
   animation-duration: 15s, 4s;
-
   animation-delay: -10s;
 }
 
 .snowflake-14 {
   left: 95%;
-
   width: 7px;
   height: 7px;
-
   animation-duration: 11s, 3s;
-
   animation-delay: -4s;
 }
 
 .snowflake-15 {
   left: 29%;
-
   width: 8px;
   height: 8px;
-
   animation-duration: 16s, 3.8s;
-
   animation-delay: -11s;
 }
 
 .snowflake-16 {
   left: 45%;
-
   width: 5px;
   height: 5px;
-
   animation-duration: 8s, 2.5s;
-
   animation-delay: -2s;
 }
 
 .snowflake-17 {
   left: 61%;
-
   width: 9px;
   height: 9px;
-
   animation-duration: 13s, 3.7s;
-
   animation-delay: -6s;
 }
 
 .snowflake-18 {
   left: 74%;
-
   width: 6px;
   height: 6px;
-
   animation-duration: 10s, 3s;
-
   animation-delay: -5s;
 }
 
 .snowflake-19 {
   left: 88%;
-
   width: 13px;
   height: 13px;
-
   animation-duration: 17s, 4.2s;
-
   animation-delay: -8s;
 }
 
 .snowflake-20 {
   left: 14%;
-
   width: 5px;
   height: 5px;
-
   animation-duration: 8s, 2.4s;
-
   animation-delay: -1s;
 }
 
@@ -343,7 +284,6 @@ body {
 
   0% {
     transform: translate3d(0, -30px, 0);
-
     opacity: 0;
   }
 
@@ -357,7 +297,6 @@ body {
 
   100% {
     transform: translate3d(70px, 110vh, 0);
-
     opacity: 0;
   }
 
@@ -374,6 +313,7 @@ body {
   }
 
 }
+
 
 /* =========================================================
    HERO
@@ -393,17 +333,17 @@ body {
 
   background:
     radial-gradient(
-      ellipse at 50% 25%,
-      rgba(255, 255, 255, 0.8) 0%,
-      rgba(221, 240, 255, 0.55) 24%,
-      rgba(160, 195, 231, 0.45) 52%,
+      ellipse at 50% 20%,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(221, 240, 255, 0.18) 25%,
+      rgba(160, 195, 231, 0.1) 52%,
       transparent 78%
     ),
     linear-gradient(
       180deg,
-      #cfe9fb 0%,
-      #9fc4e6 45%,
-      #b9a8d4 100%
+      #bcdff7 0%,
+      #94bce0 45%,
+      #aa96c9 100%
     );
 }
 
@@ -417,12 +357,12 @@ body {
   background:
     radial-gradient(
       circle at 20% 20%,
-      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.07),
       transparent 18%
     ),
     radial-gradient(
       circle at 82% 30%,
-      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.05),
       transparent 20%
     );
 
@@ -437,11 +377,9 @@ body {
   position: absolute;
 
   left: -10%;
-
   bottom: -100px;
 
   width: 120%;
-
   height: 230px;
 
   background:
@@ -459,6 +397,7 @@ body {
   z-index: 1;
 }
 
+
 /* =========================================================
    BRILLOS
 ========================================================= */
@@ -470,8 +409,7 @@ body {
 
   pointer-events: none;
 
-  background:
-    rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.07);
 
   filter: blur(25px);
 
@@ -514,17 +452,16 @@ body {
   0%,
   100% {
     opacity: 0.12;
-
     transform: scale(1);
   }
 
   50% {
     opacity: 0.25;
-
     transform: scale(1.05);
   }
 
 }
+
 
 /* =========================================================
    COPOS DECORATIVOS
@@ -616,8 +553,9 @@ body {
 
 }
 
+
 /* =========================================================
-   CONTENIDO DEL HERO
+   CONTENIDO HERO
 ========================================================= */
 
 .hero-content {
@@ -627,10 +565,7 @@ body {
 
   width: min(92%, 590px);
 
-  padding:
-    65px
-    20px
-    100px;
+  padding: 55px 20px 100px;
 
   text-align: center;
 
@@ -643,8 +578,9 @@ body {
   z-index: 21;
 }
 
+
 /* =========================================================
-   ORNAMENTO
+   ORNAMENTO SUPERIOR
 ========================================================= */
 
 .top-ornament {
@@ -655,7 +591,7 @@ body {
 
   gap: 16px;
 
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .top-ornament span {
@@ -695,16 +631,23 @@ body {
     0 0 8px rgba(255, 255, 255, 0.45);
 }
 
+
 /* =========================================================
-   TIPOGRAFÍA
+   TÍTULO PRINCIPAL
 ========================================================= */
+
+.hero-title {
+  position: relative;
+
+  z-index: 21;
+
+  text-align: center;
+}
 
 .small-title {
   margin-bottom: 13px;
 
-  font-family:
-    "DM Sans",
-    sans-serif;
+  font-family: "DM Sans", sans-serif;
 
   font-size: 0.68rem;
 
@@ -712,26 +655,24 @@ body {
 
   letter-spacing: 0.35em;
 
-  color:
-    rgba(255, 255, 255, 0.95);
+  color: rgba(255, 255, 255, 0.95);
 
   text-shadow:
     0 2px 7px rgba(55, 78, 109, 0.3);
 }
 
-.hero h1 {
-  font-family:
-    "Cinzel",
-    serif;
+.hero-title h1 {
+  margin: 0;
 
-  font-size:
-    clamp(3rem, 13vw, 5.8rem);
+  font-family: "Cinzel", serif;
 
-  line-height: 0.9;
+  font-size: clamp(2.6rem, 10vw, 5rem);
 
-  font-weight: 500;
+  line-height: 1;
 
-  letter-spacing: -0.03em;
+  font-weight: 600;
+
+  letter-spacing: 0.02em;
 
   color: #ffffff;
 
@@ -739,19 +680,14 @@ body {
     0 3px 15px rgba(54, 77, 107, 0.38);
 }
 
-.hero h1 strong {
-  display: block;
+.hero-title h1 strong {
+  display: inline;
 
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
-  font-size:
-    clamp(8rem, 30vw, 12rem);
+  font-size: inherit;
 
-  line-height: 0.78;
-
-  font-weight: 600;
+  font-weight: 700;
 
   background:
     linear-gradient(
@@ -770,46 +706,101 @@ body {
 
   filter:
     drop-shadow(
-      0 6px 8px rgba(48, 70, 103, 0.28)
+      0 5px 7px rgba(48, 70, 103, 0.28)
     );
 }
 
-.script-title {
-  margin-top: 20px;
 
-  font-family:
-    "Great Vibes",
-    cursive;
+/* =========================================================
+   NOMBRE
+========================================================= */
 
-  font-size:
-    clamp(2.2rem, 9vw, 3.5rem);
+.name-title {
+  margin-top: 14px;
 
-  line-height: 1;
+  font-family: "Great Vibes", cursive;
+
+  font-size: clamp(
+    2.5rem,
+    9vw,
+    4rem
+  );
+
+  line-height: 1.05;
 
   color: #ffffff;
 
   text-shadow:
-    0 3px 12px rgba(67, 64, 100, 0.35);
+    0 3px 12px rgba(67, 64, 100, 0.4);
 }
+
+
+/* =========================================================
+   DECORACIÓN DEL TÍTULO
+========================================================= */
+
+.title-decoration {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+
+  margin: 17px auto 12px;
+}
+
+.title-decoration span {
+  width: 55px;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.8)
+    );
+}
+
+.title-decoration span:last-child {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.8),
+      transparent
+    );
+}
+
+.title-decoration .mini-snow {
+  width: 12px;
+  height: 12px;
+
+  border-color: rgba(255, 255, 255, 0.9);
+
+  box-shadow:
+    0 0 8px rgba(255, 255, 255, 0.45);
+}
+
+
+/* =========================================================
+   DESCRIPCIÓN
+========================================================= */
 
 .hero-description {
   max-width: 420px;
 
-  margin:
-    18px
-    auto
-    26px;
+  margin: 13px auto 20px;
 
   font-size: 0.88rem;
 
   line-height: 1.8;
 
-  color:
-    rgba(255, 255, 255, 0.96);
+  color: rgba(255, 255, 255, 0.96);
 
   text-shadow:
     0 2px 8px rgba(57, 79, 108, 0.3);
 }
+
 
 /* =========================================================
    IMAGEN
@@ -820,14 +811,11 @@ body {
 
   z-index: 22;
 
-  width:
-    min(82vw, 320px);
+  width: min(78vw, 315px);
 
   aspect-ratio: 4 / 4.8;
 
-  margin:
-    25px
-    auto;
+  margin: 20px auto 24px;
 
   display: flex;
 
@@ -839,7 +827,10 @@ body {
     character-float 6s ease-in-out 1.4s infinite;
 }
 
-/* Brillo de la imagen */
+
+/* =========================================================
+   BRILLO DE FOTO
+========================================================= */
 
 .frame-glow {
   position: absolute;
@@ -851,8 +842,8 @@ body {
   background:
     radial-gradient(
       circle,
-      rgba(255, 255, 255, 0.32),
-      rgba(214, 236, 251, 0.12) 45%,
+      rgba(255, 255, 255, 0.25),
+      rgba(214, 236, 251, 0.08) 45%,
       transparent 70%
     );
 
@@ -869,20 +860,19 @@ body {
   0%,
   100% {
     transform: scale(0.97);
-
     opacity: 0.45;
   }
 
   50% {
     transform: scale(1.03);
-
     opacity: 0.7;
   }
 
 }
 
+
 /* =========================================================
-   MARCO DE LA IMAGEN
+   MARCO DE IMAGEN
 ========================================================= */
 
 .image-ring {
@@ -901,10 +891,7 @@ body {
   align-items: center;
 
   border-radius:
-    48%
-    48%
-    45%
-    45%;
+    48% 48% 45% 45%;
 
   background:
     linear-gradient(
@@ -940,8 +927,9 @@ body {
   pointer-events: none;
 }
 
+
 /* =========================================================
-   IMAGEN DE ELSA
+   IMAGEN — CARA CENTRADA
 ========================================================= */
 
 .character-image {
@@ -952,16 +940,18 @@ body {
 
   object-fit: cover;
 
-  object-position: center top;
+  /*
+    Ajuste principal:
+    mantiene la cara cerca del centro
+    de la composición.
+  */
+  object-position: 50% 18%;
 
   border-radius:
-    45%
-    45%
-    42%
-    42%;
+    45% 45% 42% 42%;
 
   filter:
-    saturate(0.94)
+    saturate(0.98)
     contrast(0.97)
     brightness(1.03);
 
@@ -974,14 +964,14 @@ body {
   -webkit-mask-image:
     linear-gradient(
       to bottom,
-      black 88%,
+      black 90%,
       transparent 100%
     );
 
   mask-image:
     linear-gradient(
       to bottom,
-      black 88%,
+      black 90%,
       transparent 100%
     );
 }
@@ -990,57 +980,14 @@ body {
   transform: scale(1.05);
 
   filter:
-    saturate(0.98)
-    contrast(0.97)
+    saturate(1)
+    contrast(0.98)
     brightness(1.05);
 }
 
-/* =========================================================
-   NOMBRE DE MELINA
-========================================================= */
-
-.character-name {
-  position: absolute;
-
-  top: 68%;
-  left: 50%;
-
-  transform:
-    translate(-50%, -50%);
-
-  z-index: 10;
-
-  width: 88%;
-
-  padding: 0 5px;
-
-  text-align: center;
-
-  font-family:
-    "Great Vibes",
-    cursive;
-
-  font-size:
-    clamp(2rem, 7vw, 3.6rem);
-
-  font-weight: 400;
-
-  line-height: 1.05;
-
-  color: #ffffff;
-
-  text-shadow:
-    0 2px 4px rgba(42, 65, 110, 0.95),
-    0 0 8px rgba(255, 255, 255, 0.95),
-    0 0 18px rgba(145, 185, 232, 0.85);
-
-  pointer-events: none;
-
-  white-space: normal;
-}
 
 /* =========================================================
-   REFLEJO DE LA IMAGEN
+   REFLEJO
 ========================================================= */
 
 .image-ring::after {
@@ -1059,7 +1006,7 @@ body {
   background:
     linear-gradient(
       135deg,
-      rgba(255, 255, 255, 0.12),
+      rgba(255, 255, 255, 0.1),
       transparent 65%
     );
 
@@ -1069,6 +1016,7 @@ body {
 
   z-index: 4;
 }
+
 
 /* =========================================================
    DECORACIONES DE LA FOTO
@@ -1123,6 +1071,7 @@ body {
 
 }
 
+
 /* =========================================================
    FECHA
 ========================================================= */
@@ -1132,17 +1081,11 @@ body {
 
   z-index: 22;
 
-  width:
-    min(100%, 280px);
+  width: min(100%, 280px);
 
-  margin:
-    15px
-    auto
-    28px;
+  margin: 10px auto 27px;
 
-  padding:
-    17px
-    25px;
+  padding: 17px 25px;
 
   display: flex;
 
@@ -1172,16 +1115,13 @@ body {
 
   letter-spacing: 0.28em;
 
-  color:
-    rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .date-number {
   margin-top: 4px;
 
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 2.3rem;
 
@@ -1202,12 +1142,12 @@ body {
 
   letter-spacing: 0.3em;
 
-  color:
-    rgba(255, 255, 255, 0.92);
+  color: rgba(255, 255, 255, 0.92);
 }
 
+
 /* =========================================================
-   BOTÓN
+   BOTÓN DESCUBRIR
 ========================================================= */
 
 .discover-button {
@@ -1224,12 +1164,9 @@ body {
 
   min-width: 210px;
 
-  padding:
-    13px
-    22px;
+  padding: 13px 22px;
 
-  color:
-    var(--deep-purple);
+  color: var(--deep-purple);
 
   text-decoration: none;
 
@@ -1275,6 +1212,7 @@ body {
     translateY(-2px);
 }
 
+
 /* =========================================================
    SECCIONES
 ========================================================= */
@@ -1291,17 +1229,14 @@ body {
 }
 
 .content-container {
-  width:
-    min(90%, 620px);
+  width: min(90%, 620px);
 
   margin: 0 auto;
 }
 
 .intro-section,
 .locations-section {
-  padding:
-    85px
-    20px;
+  padding: 85px 20px;
 }
 
 .section-overline {
@@ -1313,24 +1248,24 @@ body {
 
   letter-spacing: 0.3em;
 
-  color:
-    var(--purple);
+  color: var(--purple);
 }
 
 h2 {
-  font-family:
-    "Great Vibes",
-    cursive;
+  font-family: "Great Vibes", cursive;
 
   font-size:
-    clamp(3rem, 11vw, 4.4rem);
+    clamp(
+      3rem,
+      11vw,
+      4.4rem
+    );
 
   line-height: 1;
 
   font-weight: 400;
 
-  color:
-    var(--deep-purple);
+  color: var(--deep-purple);
 }
 
 .heading-line {
@@ -1341,10 +1276,7 @@ h2 {
 
   gap: 14px;
 
-  margin:
-    22px
-    auto
-    25px;
+  margin: 22px auto 25px;
 }
 
 .heading-line span {
@@ -1372,8 +1304,7 @@ h2 {
   width: 12px;
   height: 12px;
 
-  border-color:
-    var(--gold);
+  border-color: var(--gold);
 
   box-shadow:
     0 0 8px rgba(199, 169, 107, 0.3);
@@ -1384,13 +1315,13 @@ h2 {
 
   margin: 0 auto;
 
-  color:
-    var(--text);
+  color: var(--text);
 
   font-size: 0.9rem;
 
   line-height: 1.9;
 }
+
 
 /* =========================================================
    FECHA
@@ -1407,8 +1338,7 @@ h2 {
 
   gap: 18px;
 
-  width:
-    min(100%, 470px);
+  width: min(100%, 470px);
 
   margin: auto;
 
@@ -1488,14 +1418,11 @@ h2 {
 }
 
 .calendar-body span {
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 0.9rem;
 
-  color:
-    var(--deep-purple);
+  color: var(--deep-purple);
 }
 
 .info-label {
@@ -1509,19 +1436,15 @@ h2 {
 
   letter-spacing: 0.25em;
 
-  color:
-    var(--deep-blue);
+  color: var(--deep-blue);
 }
 
 .date-details h3 {
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 1rem;
 
-  color:
-    var(--deep-purple);
+  color: var(--deep-purple);
 }
 
 .date-details p {
@@ -1529,9 +1452,9 @@ h2 {
 
   font-size: 0.73rem;
 
-  color:
-    #8190a5;
+  color: #8190a5;
 }
+
 
 /* =========================================================
    FAMILIA
@@ -1540,9 +1463,7 @@ h2 {
 .family-section {
   position: relative;
 
-  padding:
-    90px
-    20px;
+  padding: 90px 20px;
 
   overflow: hidden;
 
@@ -1615,9 +1536,7 @@ h2 {
 .family-card {
   position: relative;
 
-  padding:
-    30px
-    17px;
+  padding: 30px 17px;
 
   border-radius: 26px;
 
@@ -1654,10 +1573,7 @@ h2 {
   width: 50px;
   height: 50px;
 
-  margin:
-    0
-    auto
-    15px;
+  margin: 0 auto 15px;
 
   border-radius: 50%;
 
@@ -1688,14 +1604,11 @@ h2 {
 }
 
 .family-card .info-label {
-  color:
-    var(--purple);
+  color: var(--purple);
 }
 
 .family-card h3 {
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 0.84rem;
 
@@ -1703,21 +1616,18 @@ h2 {
 
   font-weight: 500;
 
-  color:
-    var(--deep-purple);
+  color: var(--deep-purple);
 }
 
 .card-separator {
   width: 30px;
   height: 1px;
 
-  margin:
-    14px
-    auto;
+  margin: 14px auto;
 
-  background:
-    var(--soft-gold);
+  background: var(--soft-gold);
 }
+
 
 /* =========================================================
    UBICACIONES
@@ -1730,12 +1640,9 @@ h2 {
 .location-card {
   display: flex;
 
-  width:
-    min(100%, 600px);
+  width: min(100%, 600px);
 
-  margin:
-    20px
-    auto;
+  margin: 20px auto;
 
   overflow: hidden;
 
@@ -1838,9 +1745,7 @@ h2 {
   background:
     rgba(255, 255, 255, 0.14);
 
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 1.5rem;
 }
@@ -1856,24 +1761,19 @@ h2 {
 .location-content {
   flex: 1;
 
-  padding:
-    27px
-    23px;
+  padding: 27px 23px;
 }
 
 .location-content h3 {
   margin-bottom: 8px;
 
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 1rem;
 
   font-weight: 600;
 
-  color:
-    var(--deep-purple);
+  color: var(--deep-purple);
 }
 
 .location-content p {
@@ -1883,8 +1783,7 @@ h2 {
 
   line-height: 1.7;
 
-  color:
-    #7b899c;
+  color: #7b899c;
 }
 
 .location-button {
@@ -1893,9 +1792,7 @@ h2 {
   align-items: center;
   justify-content: center;
 
-  padding:
-    10px
-    17px;
+  padding: 10px 17px;
 
   border-radius: 999px;
 
@@ -1925,6 +1822,7 @@ h2 {
   transform: translateY(-2px);
 }
 
+
 /* =========================================================
    CONFIRMACIÓN
 ========================================================= */
@@ -1932,9 +1830,7 @@ h2 {
 .confirmation-section {
   position: relative;
 
-  padding:
-    90px
-    20px;
+  padding: 90px 20px;
 
   overflow: hidden;
 
@@ -1975,14 +1871,11 @@ h2 {
 
   z-index: 2;
 
-  width:
-    min(100%, 530px);
+  width: min(100%, 530px);
 
   margin: auto;
 
-  padding:
-    45px
-    25px;
+  padding: 45px 25px;
 
   text-align: center;
 
@@ -2008,10 +1901,7 @@ h2 {
   width: 34px;
   height: 34px;
 
-  margin:
-    0
-    auto
-    20px;
+  margin: 0 auto 20px;
 
   border:
     1px solid var(--gold);
@@ -2029,28 +1919,21 @@ h2 {
 .confirmation-text {
   max-width: 420px;
 
-  margin:
-    0
-    auto
-    26px;
+  margin: 0 auto 26px;
 
   font-size: 0.82rem;
 
   line-height: 1.8;
 
-  color:
-    #738298;
+  color: #738298;
 }
 
 .confirm-button {
   position: relative;
 
-  width:
-    min(100%, 330px);
+  width: min(100%, 330px);
 
-  padding:
-    16px
-    22px;
+  padding: 16px 22px;
 
   border: none;
 
@@ -2060,9 +1943,7 @@ h2 {
 
   overflow: hidden;
 
-  font-family:
-    "DM Sans",
-    sans-serif;
+  font-family: "DM Sans", sans-serif;
 
   font-size: 0.75rem;
 
@@ -2128,9 +2009,9 @@ h2 {
 
   font-size: 0.62rem;
 
-  color:
-    #98a2b3;
+  color: #98a2b3;
 }
+
 
 /* =========================================================
    SECCIÓN FINAL
@@ -2192,12 +2073,9 @@ h2 {
 
   z-index: 2;
 
-  width:
-    min(90%, 550px);
+  width: min(90%, 550px);
 
-  padding:
-    70px
-    20px;
+  padding: 70px 20px;
 }
 
 .final-ornament {
@@ -2241,7 +2119,11 @@ h2 {
   margin-top: 17px;
 
   font-size:
-    clamp(2.8rem, 10vw, 4.3rem);
+    clamp(
+      2.8rem,
+      10vw,
+      4.3rem
+    );
 
   color: white;
 
@@ -2250,13 +2132,9 @@ h2 {
 }
 
 .final-age {
-  margin:
-    5px
-    0;
+  margin: 5px 0;
 
-  font-family:
-    "Cinzel",
-    serif;
+  font-family: "Cinzel", serif;
 
   font-size: 5.5rem;
 
@@ -2284,10 +2162,7 @@ h2 {
 .final-text {
   max-width: 390px;
 
-  margin:
-    15px
-    auto
-    0;
+  margin: 15px auto 0;
 
   font-size: 0.78rem;
 
@@ -2297,6 +2172,7 @@ h2 {
     rgba(255, 255, 255, 0.9);
 }
 
+
 /* =========================================================
    FOOTER
 ========================================================= */
@@ -2304,9 +2180,7 @@ h2 {
 .footer {
   position: relative;
 
-  padding:
-    24px
-    20px;
+  padding: 24px 20px;
 
   text-align: center;
 
@@ -2328,32 +2202,36 @@ h2 {
 
   margin-top: 5px;
 
-  font-family:
-    "Great Vibes",
-    cursive;
+  font-family: "Great Vibes", cursive;
 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 
   color: white;
 }
+
 
 /* =========================================================
    ANIMACIONES
 ========================================================= */
 
-.hero-content .small-title {
+.hero-title .small-title {
   animation:
     entrance 0.9s ease 0.1s both;
 }
 
-.hero-content h1 {
+.hero-title h1 {
   animation:
     entrance 0.9s ease 0.2s both;
 }
 
-.script-title {
+.name-title {
   animation:
     entrance 0.9s ease 0.3s both;
+}
+
+.title-decoration {
+  animation:
+    entrance 0.9s ease 0.35s both;
 }
 
 .hero-description {
@@ -2404,6 +2282,7 @@ h2 {
 
 }
 
+
 /* =========================================================
    TABLET
 ========================================================= */
@@ -2411,7 +2290,7 @@ h2 {
 @media (min-width: 600px) {
 
   .hero-content {
-    padding-top: 75px;
+    padding-top: 65px;
   }
 
   .character-frame {
@@ -2423,27 +2302,16 @@ h2 {
   }
 
   .family-card {
-    padding:
-      35px
-      25px;
+    padding: 35px 25px;
   }
 
   .location-image {
     width: 160px;
-
     min-width: 160px;
   }
 
-  .character-name {
-    top: 68%;
-
-    width: 86%;
-
-    font-size:
-      clamp(2.3rem, 5vw, 3.6rem);
-  }
-
 }
+
 
 /* =========================================================
    CELULAR
@@ -2457,7 +2325,7 @@ h2 {
 
   .hero-content {
     padding:
-      45px
+      42px
       15px
       85px;
   }
@@ -2466,17 +2334,26 @@ h2 {
     width: 45px;
   }
 
+  .hero-title h1 {
+    font-size: 2.7rem;
+  }
+
+  .name-title {
+    font-size: 2.75rem;
+  }
+
   .hero-description {
     font-size: 0.82rem;
 
     padding:
-      0
-      8px;
+      0 8px;
   }
 
   .character-frame {
     width:
       min(76vw, 290px);
+
+    margin-top: 18px;
   }
 
   .frame-decoration {
@@ -2492,29 +2369,11 @@ h2 {
     right: -8px;
   }
 
-  /* Nombre de Melina en celular */
-
-  .character-name {
-    top: 68%;
-
-    width: 90%;
-
-    padding:
-      0
-      4px;
-
-    font-size:
-      clamp(1.8rem, 8vw, 2.8rem);
-
-    line-height: 1;
-  }
-
   .intro-section,
   .locations-section,
   .family-section,
   .confirmation-section {
     padding-top: 70px;
-
     padding-bottom: 70px;
   }
 
@@ -2538,9 +2397,7 @@ h2 {
 
   .location-image {
     width: 100%;
-
     min-width: 0;
-
     min-height: 125px;
   }
 
@@ -2568,6 +2425,7 @@ h2 {
 
 }
 
+
 /* =========================================================
    CELULARES PEQUEÑOS
 ========================================================= */
@@ -2584,37 +2442,16 @@ h2 {
     letter-spacing: 0.22em;
   }
 
-  .hero h1 {
-    font-size: 2.8rem;
+  .hero-title h1 {
+    font-size: 2.35rem;
   }
 
-  .hero h1 strong {
-    font-size: 7.5rem;
-  }
-
-  .script-title {
-    font-size: 2rem;
+  .name-title {
+    font-size: 2.35rem;
   }
 
   .character-frame {
     width: 250px;
-  }
-
-  /* Ajuste especial del nombre */
-
-  .character-name {
-    top: 68%;
-
-    width: 92%;
-
-    font-size: 1.9rem;
-
-    line-height: 1;
-
-    text-shadow:
-      0 2px 4px rgba(42, 65, 110, 0.95),
-      0 0 7px rgba(255, 255, 255, 0.95),
-      0 0 14px rgba(145, 185, 232, 0.8);
   }
 
   .date-badge {
@@ -2630,6 +2467,7 @@ h2 {
   }
 
 }
+
 
 /* =========================================================
    ACCESIBILIDAD
@@ -2653,6 +2491,7 @@ h2 {
 
 }
 
+
 /* =========================================================
    ESCRITORIO
 ========================================================= */
@@ -2661,8 +2500,7 @@ h2 {
 
   body {
     padding:
-      25px
-      0;
+      25px 0;
   }
 
   .invitation {
