@@ -1776,6 +1776,27 @@ h2 {
   color: var(--deep-purple);
 }
 
+.event-time {
+  display: inline-block;
+
+  margin: 2px 0 12px;
+  padding: 6px 13px;
+
+  font-family: "Cinzel", serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+
+  color: var(--deep-purple);
+
+  background: linear-gradient(135deg, #eef7ff, #f1e9fa);
+
+  border: 1px solid rgba(199, 169, 107, 0.45);
+  border-radius: 999px;
+
+  box-shadow: 0 4px 12px rgba(74, 105, 143, 0.08);
+}
+
 .location-content p {
   margin-bottom: 17px;
 
